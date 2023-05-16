@@ -5,7 +5,7 @@ const pxtorem = require('postcss-pxtorem');
 
 module.exports = {
   //使用./后就不用修改那个index里面的内容了,也可以改成CDN地址
-  publicPath: '././',
+  publicPath: './',
   outputDir: 'dist',//build输出地址
   assetsDir: './assets/',
   filenameHashing: false,// 文件名哈希
